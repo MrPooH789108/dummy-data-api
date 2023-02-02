@@ -1,8 +1,13 @@
-module github.com/omeiirr/dummy-data
+module github.com/omeiirr/dummy-data-api
 
 go 1.19
 
-require github.com/gofiber/fiber/v2 v2.41.0
+require (
+	github.com/aws/aws-lambda-go v1.37.0
+	github.com/awslabs/aws-lambda-go-api-proxy v0.13.3
+	github.com/gofiber/fiber/v2 v2.41.0
+	github.com/jaswdr/faker v1.16.0
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
