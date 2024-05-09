@@ -3,7 +3,7 @@ module github.com/omeiirr/dummy-data-api
 go 1.19
 
 require (
-	github.com/DataDog/datadog-lambda-go v1.13.0
+	github.com/DataDog/datadog-lambda-go v1.14.0
 	github.com/aws/aws-lambda-go v1.37.0
 	github.com/awslabs/aws-lambda-go-api-proxy v0.13.3
 	github.com/gofiber/fiber/v2 v2.50.0
